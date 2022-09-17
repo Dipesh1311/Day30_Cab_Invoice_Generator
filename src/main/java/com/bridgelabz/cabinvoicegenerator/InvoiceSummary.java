@@ -21,5 +21,4 @@ public class InvoiceSummary {
         return numOfRides == that.numOfRides && Double.compare(that.totalFare, totalFare) == 0
                 && Double.compare(that.avgFare, avgFare) == 0;
     }
-
 }
